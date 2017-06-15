@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src", "./src/components"],
+      "alias": {
+        "hello": "./hello",
+        "hello2": "/level1/level2/level3/Hello"
+      }
+    }]
+  ]
+}
